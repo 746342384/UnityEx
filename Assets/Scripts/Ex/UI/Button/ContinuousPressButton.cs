@@ -7,6 +7,7 @@ namespace Ex.UI.Button
     {
         protected override float Duration => 0.5f;
 
+        
         private void Start()
         {
             SetPressEvent(() => { Debug.Log($"连续按下:{ContinuousCount}"); });

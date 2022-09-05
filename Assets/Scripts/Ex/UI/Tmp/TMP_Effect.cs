@@ -52,7 +52,7 @@ namespace Ex.UI.Tmp
         private float overallLerpTime = 1f;
 
 
-        private CornerZoomType _cornerZoomType;
+        [SerializeField] private CornerZoomType _cornerZoomType;
 
         private void Awake()
         {
